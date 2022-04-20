@@ -10,7 +10,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    // https://mvnrepository.com/artifact/org.hamcrest/hamcrest
+    implementation 'org.hamcrest:hamcrest:2.2'
+
 }
 
 test {
